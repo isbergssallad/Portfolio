@@ -1,0 +1,130 @@
+@font-face {
+  font-family:InterRegular ;
+  src: url(interfont/Inter-Regular.ttf)
+}
+
+@font-face {
+  font-family:InterMedium ;
+  src: url(interfont/Inter-Medium.ttf)
+}
+
+@font-face {
+  font-family:InterBold ;
+  src: url(interfont/Inter-Bold.ttf)
+}
+/* This is for custom font, linking to font file */
+
+
+.hero{
+  position: relative;
+  max-width: auto;
+  height: auto;
+  background: #eeeeee;
+  font-family: 'INTERMEDIUM';
+}
+/* Hero div aspects */
+
+.hero h1{
+  font-size: 27;
+  color: black;
+  margin-top: 5%;
+  margin-left: 2%;
+  font-family: 'INTERBOLD';
+}
+/* Portfolio header */
+
+nav ul li{
+  display: inline-block;
+  list-style-type:none;
+  margin: 10px
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black
+}
+
+.aboutme{
+  margin-left: 4%;
+  margin-top: 5%;
+  display: inline-block;
+}
+
+.aboutme h2{
+  font-size: 18px;
+  color: black;
+  margin-bottom: 1px;
+  display: inline-block;
+  font-family: 'INTERBOLD'
+}
+
+.work h3 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 1px;
+  display: inline-block;
+  font-family: 'INTERBOLD'
+}
+
+.work{
+  margin-left: 20%;
+  margin-top: -8.55%;
+}
+
+.exp h4{
+  font-size: 18px;
+  color: black;
+  font-family: 'INTERBOLD'
+}
+
+.exp{
+  margin-left: 4%;
+  margin-top: 5%;
+}
+
+.education h5{
+  font-size: 18px;
+  color: black;
+  font-family: 'INTERBOLD'
+}
+
+.education{
+  margin-left: 20%;
+  margin-top: -12.60%;
+}
+
+.education p{
+  margin-top: -10px;
+}
+
+/* Positioning and details to the 4 texts */
+
+
+.topColumn {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+}
+
+.bottomColumn {
+  float: left;
+  width: 33.33%;
+  padding: 3px;
+  margin-top: -5px;
+}
+
+.Column {
+  scale: 53%;
+  margin-top: -460px;
+  margin-right: -950px;
+}
+/* Positioning and fixing position of top and bottom column of picture divs */
+
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  overflow-y: hidden;
+}
+/* Hiding the scrollwheel/overflow of the website */
